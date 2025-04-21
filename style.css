@@ -1,13 +1,13 @@
 /* Reset أساسي */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;/*يشيل المسافات الخارجية لكل العناصر.*/
+    padding: 0;/*بيشيل المسافات الداخليه لكل العناصر*/
+    box-sizing: border-box;/* نخلي حجم العنصر يشمل البادينج والبوردر معاه */
   }
   
   body {
-    font-family: 'Arial', sans-serif;
-    color: white;
+    font-family: 'Arial', sans-serif;/* بنختار نوع الخط اللي هيظهر في الصفحة.*/
+    color: white;/*خلي النص لونه أبيض عشان يكون واضح على الخلفية الغامقة*/
   }
   
   /* ================= NAVBAR ================= */
