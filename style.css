@@ -7,113 +7,41 @@
   
   body {
     font-family: 'Arial', sans-serif;/* بنختار نوع الخط اللي هيظهر في الصفحة.*/
-    color: white;/*خلي النص لونه أبيض عشان يكون واضح على الخلفية الغامقة*/
+    color: rgb(155, 17, 17);/*خلي النص لونه أبيض عشان يكون واضح على الخلفية الغامقة*/
   }
   
   /* ================= NAVBAR ================= */
-  .navbar {
-    display: flex; /* تخلي العناصر جنب بعض */
-    justify-content: space-between; /* مسافة بين اللوجو والروابط */
-    align-items: center; /* العناصر تبقى في وسط الخط */
-    padding: 20px 50px;
-    background-color: rgba(0, 0, 0, 0.5); /* شريط شفاف غامق */
-    position: absolute;
-    width: 100%;
-    z-index: 2; /* يخلي الناف بار فوق الصورة */
-  }
-  
-  .logo {
-    font-size: 26px;
-    font-weight: bold;
+.navbar{
+    display: flex;/*بيخلي العناصر يترتبوا جنب بعض (اللوجو,اللينكات,الزرار )*/
+
+    justify-content: space-between;/*بيعمل مسافه بين العناصر بحيث يكون اللوجو علي اليمين واللينكات والزرار ع الشمال */
+
+    align-items: center;/*بيخلي العناصر تتوسط راسيا ع نفس الخط  بظبط*/
+
+    padding: 20px 45px;/*بيدي مسافة داخلية حوالي 20px فوق وتحت، و50px يمين وشمال.*/
+
+    background-color: rgba(0,0,0,0.5);/*لون خلفية شفاف رمادي غامق (شفاف بنسبة 50%).*/
     color: white;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-  }
-  
-  .nav-links li a {
-    color: white;
+    position: relative;/*علشان ممكن بعدين نستخدمه مع عناصر تتحرك فوقه.*/
+    z-index: 1000;/*بيخلي الـ navbar يبان فوق أي عناصر تانية.*/
+
+
+}
+.navbar .logo{
+    font-size: 39px;/*بيكبر حجم الخط بتاع اللوجو*/
+    font-weight: bold;/*بيخلي الخط سميك*/
+    color: orange;/*لون اللوجو برتقالي*/
+}
+.nav-links{
+    display: flex;/*ده عشان الينكات كلها تبقي جنب بعض*/
+    gap: 50px;/*يعمل مسافه بين اللينكات عشان متكنش لازقه ي بعض*/
+    list-style: none;/*بيشيل النقط الي بتظهر قدام العناصر*/
+}
+.nav-links a{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: 0.3s;
-  }
-  
-  .nav-links li a:hover {
-    color: #f7a01b;
-  }
-  
-  .btn {
-    background-color: #d72638;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
     color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #a91e2a;
-  }
-  
-  /* ================= HERO SECTION ================= */
-  .hero {
-    height: 100vh;
-    background-image: url("img/food9.jpeg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .hero::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* فلتر شفاف غامق فوق الصورة */
-    z-index: 1;
-  }
-  
-  .hero-text {
-    position: relative;
-    z-index: 2;
-    max-width: 700px;
-    padding: 0 20px;
-  }
-  
-  .hero-text h1 {
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .hero-text p {
-    font-size: 18px;
-    margin-bottom: 25px;
-    color: #ddd;
-  }
-  
-  .hero-text .btn {
-    font-size: 18px;
-    padding: 12px 30px;
-  }
-  
-  /* ================= FOOTER ================= */
-  footer {
-    text-align: center;
-    background-color: #111;
-    color: #ccc;
-    padding: 20px;
-  }
+}
+
   
   
 
