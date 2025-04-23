@@ -107,6 +107,19 @@
     background-color: rgb(175, 126, 34);
     letter-spacing: 1px;
   }
+  .navbar .btn{
+    background-color: orange;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition:  0.5s;
+  }
+  .navbar .btn:hover{
+    background-color: rgb(175, 126, 34);
+    letter-spacing: 1px;
+  }
   
   
   
