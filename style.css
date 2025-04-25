@@ -39,7 +39,7 @@
     display: flex;/*ده عشان الينكات كلها تبقي جنب بعض*/
     gap: 50px;/*يعمل مسافه بين اللينكات عشان متكنش لازقه ي بعض*/
     list-style: none;/*بيشيل النقط الي بتظهر قدام العناصر*/
-}
+ }
 .nav-links a{
     text-decoration: none;/*عشان يشيل الخط الي موجود تحت اللينك*/
     font-weight: bold;
@@ -113,15 +113,16 @@
     background-color: orange;
     padding: 12px 24px;
     color: white;
-    text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 20px;
     transition:  0.5s;
   }
   .navbar .btn:hover{
     background-color: rgb(175, 126, 34);
     letter-spacing: 1px;
   }
+
+
   
   
   
