@@ -1,56 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Lover</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <header>
-        <nav class="navbar"> <!-- شريط التنقل الرئيسي -->
-            <div class="logo">🍽️Resturant</div> <!-- اللوجو أو اسم المطعم -->
-            <ul class="nav-links">
-                 <!-- قائمة الروابط (روابط تنقل بين أجزاء الموقع) -->
-                 <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                 <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
-                    <li class="dropdown">
-                        <a href="menu.html"><i class="fas fa-utensils"></i> Menu</a>
-                        <ul class="dropdown-content">
-                            <li><a href="#">Food🥘</a></li>
-                            <li><a href="#">Drinks🍷</a></li>
-                            <li><a href="#">Desserts🍩</a></li>
-                        </ul>
-                    </li>
-                </li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-                <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-            </ul>
-            <button class="btn">Book A Table</button>
-        </nav>
+      <h1>Our Special Team</h1>
     </header>
-    <section class="hero">
-        <div class="hero-text">  <!-- الجزء اللي فيه النصوص -->
-            <h1>Enjoy Our Delicious Meal</h1>  <!-- عنوان رئيسي كبير لجذب الانتباه -->
-            <p>
-                Authentic flavors. Fresh ingredients. Unforgettable dining
-              </p>     <!-- وصف بسيط لتوضيح الخدمات أو جذب العميل -->
-              <a href="#" class="btn">Read More...</a>    <!-- زر للتنقل لمكان تاني ف الموقع أو معلومات إضافية -->
-            </div>
-    </section>
-    <footer>
-        <p>&copy; 2025 Resturant. All rights reserved.</p>
 
-        bvbvb
-    </footer>
+    <div class="slider-container">
+      <i class="fas fa-chevron-left arrow" id="prevBtn"></i>
 
+      <div class="card-wrapper" id="cardWrapper">
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/handsome-young-guy-with-glasses-posing_176420-30004.avif" class="card-img" />
+          </div>
+          <h2 class="name">Joe William</h2>
+          <p class="description">Our perfect manager</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.avif" class="card-img" />
+          </div>
+          <h2 class="name">Sara Ahmed</h2>
+          <p class="description">Our Executive Chef</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/headshot-pleased-hipster-guy-dressed-maroon-t-shirt_176532-8161.avif" class="card-img" />
+          </div>
+          <h2 class="name">Mohamed Tarek</h2>
+          <p class="description">Our Butcher</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.avif" class="card-img" />
+          </div>
+          <h2 class="name">Lina Saeed</h2>
+          <p class="description">Our Pastry Chef</p>
+          <div class="social-icons">
+            <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.avif" class="card-img" />
+          </div>
+          <h2 class="name">Ahmed Zaki</h2>
+          <p class="description">Our Cooker</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.avif" class="card-img" />
+          </div>
+          <h2 class="name">Nada Hisham</h2>
+          <p class="description">Our Digital Marketer</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/portrait-young-candid-man-student-boy-with-clean-face-relaxed-facial-expression-casual-smile-checked-shirt-t-shirt-summer-outfit-look-white-background_176420-45901.avif" class="card-img" />
+          </div>
+          <h2 class="name">Omar Khaled</h2>
+          <p class="description">Our Web Developer</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="images of team/portrait-young-charismatic-gay-man-with-curly-hair-turn-head-camera-looking-optimistic-white-background_176420-49449.avif" class="card-img" />
+          </div>
+          <h2 class="name">Samy Nabil</h2>
+          <p class="description">Customer Support</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
 
+      <i class="fas fa-chevron-right arrow" id="nextBtn"></i>
+    </div>
 
-  
-
-
-</body>
+    <div class="dots" id="dotsContainer"></div>
+  </body>
 </html>
